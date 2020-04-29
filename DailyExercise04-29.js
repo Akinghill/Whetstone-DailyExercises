@@ -1,27 +1,20 @@
 /*
+Here is an example of a function in vanilla javascript that makes an image, sets its source and adds the image to the page:
 
-Good day Developer, 
+````
+function makeImg(){
+    const myImg = document.createElement("img");
+    const imageDiv = document.getElementById("#myImageDiv");
 
-For today's daily exercise I would like to see that everyone is able
-to create and understand what a Markdown file is.
+    myImg.setAttribute("src", "./myNonExistantImage.png");
+    imageDiv.append(myImg)
+}
 
-Follow the users stories below and submit your Markdown file to the appropriate folder.
+````
 
-File naming format should mimic this:
-Don't use the curly braces. These are just to show that this values will change.
-{Hill}-DailyExercise{04-27}.{js}
+Using vanilla javascript write a similar function that creates a square, red div that measures 300px by 300px. You can use inline styling or create classnames and provide css for the classnames.
 
+Write the same function in JQuery.
+
+Extra Credit: What would be the method used in React to do the same thing?  How might that look?
 */
-
-
-/*
-User Stories
-
-1. Create a Markdown file in a text editor.
-2. Create an h1 and h2 in the file. 
-3. Create an ordered list, that contains 3 things that would help you learn remotely.
-4. Create a link that says "I am a link" and links to google's homepage.
-5. Create a fenced in code block and write a forloop inside that block.
-6. In regular text, write a couple sentences explaining why developers create README.md files.
-
-*/ 

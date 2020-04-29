@@ -2,44 +2,26 @@
 
 Good day Developer, 
 
-Let's review some slightly more advanced JavaScript. 
+For today's daily exercise I would like to see that everyone is able
+to create and understand what a Markdown file is.
+
+Follow the users stories below and submit your Markdown file to the appropriate folder.
+
+File naming format should mimic this:
+Don't use the curly braces. These are just to show that this values will change.
+{Hill}-DailyExercise{04-27}.{js}
 
 */
 
 
 /*
-	1. Create a function that takes two parameters, an array of numbers. Using the map method,
-	return a new array that contains every value from the input array with 10 added to each.
-	The input array should not change!
-*/ 
+User Stories
 
+1. Create a Markdown file in a text editor.
+2. Create an h1 and h2 in the file. 
+3. Create an ordered list, that contains 3 things that would help you learn remotely.
+4. Create a link that says "I am a link" and links to google's homepage.
+5. Create a fenced in code block and write a forloop inside that block.
+6. In regular text, write a couple sentences explaining why developers create README.md files.
 
-
-// 1. Test Cases
-addTen([1,2,3,4,5]) // returns [11,12,13,14,15]
-addTen([45,13,0,-20,1]) // returns [55,23,10,-10,11]
-
-
-/*
-	2. Create a function that takes two parameters, an array of numbers. Using the filter method,
-	return a new array that contains every even number from the input array.
-	The input array should not change!
-*/ 
-
-
-
-
-
-// 2. Test Cases
-getEvens([1,2,3,4,5]) // returns [11,12,13,14,15]
-getEvens([45,13,0,-20,1]) // returns [55,23,10,-10,11]
-
-
-/*
-	3. Create a JavaScript object named car. Give it the following key value pairs.
-	The car should have:
-	a name that is a string,
-	4 wheels,
-	a boolean called isFast,
-	a method called "drive"
 */ 

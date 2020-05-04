@@ -9,7 +9,7 @@
   
   I've written a couple arrays below for you, to help you get started.
 
-  -May the Forth Be With You-
+  -May the Fourth Be With You-
 */
 
 var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
